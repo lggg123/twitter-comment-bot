@@ -11,7 +11,15 @@ def main():
         config.secrets['twitter']['access_token'],
         config.secrets['twitter']['access_token_secret']
     )
-    bot.run()
+
+    try:
+        bot.reply_to_tweets(
+            config.config['bot']['search_terms'],
+            config.config['bot']['reply_text'],
+            config.config['bot']['ma_tweets'],
+        )
+    except Exception as e:
+        logger.error(f"An error occurred: {e}")
 
 if __name__ == "__main__":
     main()

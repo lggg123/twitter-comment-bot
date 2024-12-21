@@ -3,4 +3,4 @@ logs/
 __pycache__/
 *.pyc
 .env
-.venv_311/
+venv_311/

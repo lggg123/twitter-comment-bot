@@ -85,6 +85,7 @@ search_terms=['#python'], # Add your hashtags here
 reply_text="Your reply message",
 max_tweets=10
 )
+```
 
 ### Rate Limit Handling
 The bot includes built-in rate limit handling:

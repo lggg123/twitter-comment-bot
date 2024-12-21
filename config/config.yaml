@@ -1,0 +1,7 @@
+bot:
+  search_terms:
+    - "#python"
+    - "#coding"
+  reply_text: "Python is awesome! Hit me up if you want buddy Im trying to learn."
+  max_tweets: 10
+  sleep_time: 3600

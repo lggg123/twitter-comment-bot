@@ -94,6 +94,7 @@ The bot includes built-in rate limit handling:
 - Logging of rate limit events
 
 ## Project Structure
+```plaintext
 twitter_comment_new_bot/
 ├── config/
 │ ├── config.yaml
@@ -106,6 +107,7 @@ twitter_comment_new_bot/
 ├── requirements.txt
 ├── test_live.py
 └── README.md
+```
 
 ## Logging
 
